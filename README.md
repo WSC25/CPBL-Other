@@ -23,3 +23,12 @@ PwrSpd = 2(HR x SB)/(HR + SB)
 ##### *1如果打者盜壘或全壘打任一項目為0，則PwrSpd為0，EX:2023年廖建富 22轟0盜
 
 ##### *2該數據對同時能轟能跑的打者較吃香
+
+## 4.EqA (Equivalent Average)
+等效打擊平均（Equivalent Average，簡稱EqA）是由Baseball Prospectus的Clay Davenport 所開發，用於衡量球員整體打擊能力的統計指標，旨在綜合考慮球員各種打擊表現而不僅僅是觀察傳統的打擊率或傳統的OPS(OBP+SLG)。
+EqA的值通常以小數形式呈現，其數值越高代表球員在整體打擊表現上越出色。
+
+公式:
+EqA 	= (H + TB + 1.5x(BB + HBP) + SB) / (AB + BB + HBP + CS + SB/3)		　
+= (安打+總壘打數+1.5x(四壞球+觸身球)+盜壘)/(打數+四壞球+觸身球+盜壘刺+盜壘/3)
+
